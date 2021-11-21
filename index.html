@@ -2,17 +2,44 @@
 <html>
 
 <head>
-
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'ywy2hpr',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script> 
 <meta charset=”UTF-8”>
 
 <!-- THE TITLE WILL APPEAR IN THE BROWSER WINDOW OR TAB -->
 <title> Kaley Schneider Contact Page        </title>
 
+<link rel="stylesheet" href='styles-contact.css'
+
 </head>
 
 <body>
-HELLO WORLD!!!!!!!!!!!!!!!
+    <div class="center">
+        <img id="logo" src="images/kaley_logo@2x.png" alt="Kaley Schneider's Logo"/>
+        <h1> Hello, welcome to my contact page.<br>This is an h1 heading.</h1>
+        <h2 >This is an h2 heading.</h2>
+        <p>This is a paragraph, you'll notice it's smaller.</p>
 
+        <nav>
+            <ul>
+                <li><a href="https://www.behance.net"> My Work </a></li>
+                <li><a href="https://www.linkedin.com/in/kaley-schneider-5498b5226"> LinkedIn</a></li>
+                <li><a href="mailto:kschne05@calpoly.edu"> Email Me</a></li>
+            </ul>
+        </nav>
+
+
+    </div> <!--end of center div-->
+    
+ 
 
 </body>
 
