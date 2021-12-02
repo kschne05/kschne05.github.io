@@ -60,24 +60,25 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg) 
+  background: url(images/andy_worhol.png) 
 	center center fixed no-repeat;
 	background-size: cover;
+	font-family: "helvetica", sans-serif
 }
 
 .center {
-    width: 800px;
+    width: 80%;
+	max-width: 700px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgb(0, 0, 0); 
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+	margin-top: 40px;
 	text-align: center;
 }
 
@@ -111,10 +112,8 @@ p {
 nav{
 		font-family: dnp-shuei-nshogomincho-std, sans-serif;
 		font-size: 1.2em;
-		width: 400px ;
+		width: 80% ;
 		margin: 0 auto;
-		border: dashed turquoise;
-		border-width: 3px 0;
 		text-align: center;
 		margin-top: 2em;
 	}
@@ -129,7 +128,7 @@ nav a{
 }
 
 a{
-	color:#444;
+	color:rgb(255, 255, 255);
 	text-decoration:none;
 	font-weight:bold;
 }
