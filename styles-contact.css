@@ -68,7 +68,7 @@ html, body {
 
 .center {
     width: 80%;
-	max-width: 700px; 
+	max-width: 600px; 
 	padding: 2%;
     margin: 100px auto;
  	background: rgb(0, 0, 0); 
@@ -102,6 +102,9 @@ h2 {
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
+	font-family: bilo, sans-serif;
+	font-weight: 200;
+	font-style: normal;
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
@@ -135,5 +138,5 @@ a{
 
 a:hover{
 	color:black;
-	background: pink;
+	background: rgb(0, 247, 255);
 }
