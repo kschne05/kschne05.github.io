@@ -2,8 +2,8 @@
 
 html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
 
-div.container, div.home-container {
-    max-width: 40em;
+div.container {
+    max-width: 60em;
     margin: 0 auto;
   }
 
@@ -14,22 +14,30 @@ img {
 }
 
 figcaption {
+    font-family: "owners", sans-serif;
+    font-weight: 300;
     font-style: italic;
-    font-family: sans-serif;
+    letter-spacing: .1em;
     padding: .5em 0em;
-    color: #84898d;
+    color: #5e503f
+}
+
+article {
+    text-decoration: none;
 }
 
 nav {
-    font-family: sans-serif;
-    font-weight: 800;
-    color:#497d9f;
+    font-family: "owners", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .1em;
+    color:#22333b;
 }
 
 nav ul li {
     display: inline;
     margin-bottom: 1em;
-    color:#497d9f;
+    color:#22333b;
     
 }
 
@@ -47,28 +55,36 @@ h1 {
 }
 
 h2 {
-    font-family: serif;
-    font-size: 3em;
+
+    font-family: "subway-berlin-sc", sans-serif; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
     text-decoration: none;
-    color:#497d9f;
+    color:#22333b;
     margin-bottom: .7em;
-    font-weight: 800;
 }
 
 h3 {
-    font-family: sans-serif;
+    font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .1em;
+    color:#5e503f;
 }
 
 p {
     text-decoration: none;
-    color: #000000;
+    color: #0a0908;
     padding-bottom: 2em;
-    font-family: sans-serif;
+    font-family: "owners", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .1em;
 }
 
 a {
     text-decoration: none;
-    font-family: sans-serif;
 }
 
 section.mainstory h2{
@@ -77,18 +93,18 @@ section.mainstory h2{
 }
 
 section.secondarystory h2 {
-    padding-top: .5em;
+    padding-top: .5rem;
     font-size: 2em;
 }
 
 section.tertiarystory h2 {
-    border-top: 1px solid rgb(84, 119, 157);
+    border-top: 1px solid #22333b;
     padding-top: .5em;
     font-size: 1em;
 }
 
 h2, li a {
-    color: rgb(84, 119, 157);
+    color: #22333b;
 }
 
 @media screen and (min-width: 40em) {
@@ -96,119 +112,19 @@ h2, li a {
         display: inline;
         margin-right: 1em;
     } }
-
-.container {
-    padding: 0; 
-}
-
-
+    
 footer {
-    background-color: #497d9f;
-    box-sizing: border-box;
+    background-color: #5e503f;
+    
 }
 
 footer p {
-    color: #f7f7f1;
+    color: #c6ac8f;
     font-family: sans-serif;
     padding: 1em;
 
 }
 
 aside {
-    background-color: #e0cef4;
-}
-
-@media only screen and (min-width: 60em){
-
-    div.home-container {
-        max-width: 80em;
-        padding: 1em;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-gap: 1em;
-    }
-
-    div.container {
-        max-width: 60em;
-        padding: 1em;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-gap: 1em;
-    }
-
-    header, footer {
-        grid-column: 1/3;
-    }
-
-    div.home-container main {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1em;
-    }
-
-    div.home-container aside {
-        background: none;
-        padding: 0;
-        margin-top: 1em;
-    }
-
-    div.container aside {
-        margin-top: 1em;
-    }
-
-    section.mainstory {
-        grid-column: 2/4;
-        grid-row: 1/3;
-        display: flex;
-    }
-
-    section.mainstory a {
-        flex: 1 0 12em;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.mainstory a figure {
-        flex: 1 0 12em;
-        display: flex;
-    }
-
-    section.mainstory a figure img {
-        object-fit: cover;
-    }
-
-    section.mainstory a h2 {
-        flex: 0 0 1em;
-    }
-
-    section.mainstory a p {
-        flex: 0 0 4em;
-    }
-
-    section.secondarystory {
-        display: flex;
-    }
-
-    section.secondarystory a {
-        flex: 1 0 12em;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.secondarystory a figure {
-        flex: 1 0 12em;
-        display: flex;
-    }
-
-    section.secondarystory a figure img {
-        object-fit: cover;
-    }
-
-    section.secondarystory a h2 {
-        flex: 0 0 1em;
-    }
-
-    section.secondarystory a p {
-        flex: 0 0 4em;
-    }
+    background-color: #c6ac8f;
 }
